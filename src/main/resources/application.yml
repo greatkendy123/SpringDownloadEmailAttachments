@@ -1,0 +1,9 @@
+app:
+ folderName: INBOX
+ host: pop.gmail.com
+ port: 995
+ protocol: pop3
+ saveDirectory: /home/ramazan/Attachment
+ username:
+ password:
+

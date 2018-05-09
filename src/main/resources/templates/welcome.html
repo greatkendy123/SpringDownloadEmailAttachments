@@ -1,0 +1,13 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<body>
+	<h1>Mail Download Durumu</h1>
+	<p>
+		<strong>Mail Kontrol Ediliyor </strong>
+			<h2 style="color:green"><b><span th:text="${Success}"></span></b></h2>
+			<span th:text="${Error}"></span>
+		<h2 style="color:red"><b><span th:text="${ErrorMessage}"></span></b></h2>
+	</p>
+</body>
+</html>
